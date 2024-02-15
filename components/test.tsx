@@ -1,19 +1,21 @@
-import React from 'react'
+import React from "react";
 
 export const Test = () => {
   return (
     <div className="container">
-      <div className="inner"/>
+      <div>Outer should be red</div>
+
+      <div className="inner">Inner should be blue</div>
 
       <style jsx>{`
-          .container {
-              background: red;
+        .container {
+          color: red;
 
-              .inner {
-                  background: blue;
-              }
+          .inner {
+            color: blue;
           }
+        }
       `}</style>
     </div>
-  )
-}
+  );
+};
