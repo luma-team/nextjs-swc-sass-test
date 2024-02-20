@@ -9,19 +9,18 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@swc/plugin-styled-jsx": "^1.5.114",
     "next": "v14.1.1-canary.64",
-    "prettier": "^3.2.4",
+    "prettier": "^3.2.5",
     "react": "^18",
     "react-dom": "^18",
     "styled-jsx": "^5.1.2"
   },
   "devDependencies": {
-    "@swc/cli": "^0.3.2",
-    "@swc/core": "^1.3.106",
-    "@types/node": "^20",
-    "@types/react": "^18",
-    "@types/react-dom": "^18",
+    "@swc/cli": "^0.3.9",
+    "@swc/core": "^1.4.2",
+    "@types/node": "^20.11.19",
+    "@types/react": "^18.2.57",
+    "@types/react-dom": "^18.2.19",
     "eslint": "^8",
     "eslint-config-next": "14.1.0",
     "typescript": "^5"
