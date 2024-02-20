@@ -13,6 +13,10 @@ export const Test = () => {
 
           .inner {
             color: blue;
+
+            &:hover {
+              color: green;
+            }
           }
         }
       `}</style>

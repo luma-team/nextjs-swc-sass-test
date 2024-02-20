@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "@swc/plugin-styled-jsx": "^1.5.114",
-    "next": "v14.1.1-canary.55",
+    "next": "v14.1.1-canary.64",
     "prettier": "^3.2.4",
     "react": "^18",
     "react-dom": "^18",
