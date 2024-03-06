@@ -8,6 +8,9 @@ dependencies:
   next:
     specifier: 14.1.2
     version: 14.1.2(react-dom@18.2.0)(react@18.2.0)
+  postcss:
+    specifier: ^8.4.35
+    version: 8.4.35
   postcss-nested:
     specifier: ^6.0.1
     version: 6.0.1(postcss@8.4.35)
