@@ -25,13 +25,13 @@ export const Test = () => {
   }, []);
 
   return (
-    <div className="outer">
+    <div className="container">
       <div>
         This is a test page showing a demo how we can compile nested CSS classes
         in Styled JSX.
       </div>
 
-      <div className="container">
+      <div className="outer">
         <div>Outer.</div>
         <div className="inner">Inner.</div>
       </div>
@@ -42,7 +42,7 @@ export const Test = () => {
       </div>
 
       <style jsx>{`
-        .container {
+        .outer {
           color: red;
 
           .inner {
