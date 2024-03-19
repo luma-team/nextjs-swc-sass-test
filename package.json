@@ -17,11 +17,11 @@
     "react-dom": "^18",
     "styled-jsx": "^5.1.2"
   },
-  "postcss": {
-    "plugins": {
-      "postcss-nested": {}
-    }
-  },
+  "browserslist": [
+    ">0.3%",
+    "not dead",
+    "not op_mini all"
+  ],
   "devDependencies": {
     "@swc/cli": "^0.3.10",
     "@swc/core": "^1.4.4",

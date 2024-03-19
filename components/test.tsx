@@ -32,11 +32,8 @@ export const Test = () => {
       </div>
 
       <div className="container">
-        <div>Outer should be red.</div>
-        <div className="inner">
-          Inner should be blue. Note that you can’t test this on Chrome because
-          Chrome supports CSS nesting built in.
-        </div>
+        <div>Outer.</div>
+        <div className="inner">Inner.</div>
       </div>
 
       <div>
