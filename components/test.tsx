@@ -45,8 +45,20 @@ export const Test = () => {
         .outer {
           color: red;
 
+          &:hover {
+            color: aliceblue;
+          }
+
           .inner {
             color: blue;
+
+            @media (min-width: 600px) {
+              color: green;
+
+              :global(&:hover) {
+                color: yellow;
+              }
+            }
           }
         }
       `}</style>
